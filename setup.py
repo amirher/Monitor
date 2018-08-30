@@ -18,6 +18,6 @@ setup(
     keywords = "linux monitor database",
     url = "http://github.com/bobbydilley/Monitor",
     packages=['Monitor', 'tests'],
-    long_description=read('README'),
+    long_description=read('README.md'),
     scripts=['bin/monitor'],
 )
