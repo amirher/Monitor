@@ -19,5 +19,5 @@ setup(
     url = "http://github.com/bobbydilley/Monitor",
     packages=['Monitor', 'tests'],
     long_description=read('README.md'),
-    scripts=['bin/monitor'],
+    scripts=['bin/monitor', 'bin/monitor-client', 'bin/monitor-server', 'bin/monitor-worker'],
 )
